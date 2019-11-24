@@ -183,7 +183,7 @@ Sections
 }
 
 .splash h1 {
-  font-size: 3em;
+  font-size: 5em;
   margin-bottom: .15em;
   text-align: center;
 }
@@ -215,16 +215,16 @@ Sections
   background-color: rgba(255, 255, 255, .25);
 }
 
-.intro .container, .features .container, .portfolio .container, .contact .container {
+.intro .container, .features .container, .portfolio .container {
   padding: 5em 0;
 }
 
-.intro, .features, .portfolio, .contact {
+.intro, .features, .portfolio {
   text-align: center;
 }
 
 .intro {
-  background-color: #3182bd;
+  background-color: #2171b5;
   color: #fff;
 }
 
@@ -244,11 +244,11 @@ Sections
 }
 
 .features, .portfolio.galaxy {
-  background-color: #deebf7;
+  background-color: #bdd7e7;
 }
 
 .portfolio {
-  background-color: #9ecae1;
+  background-color: #6baed6;
   color: #fff;
 }
 
@@ -322,10 +322,6 @@ Media Queries
   
   nav ul li a {
     padding: 0;
-  }
-  
-  .splash h1 {
-    font-size: 6em;
   }
   
   .splash .lead {

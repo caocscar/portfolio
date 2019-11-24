@@ -3,6 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="img/png" href="/static/images/icon_t.png">
   <title>Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -16,7 +17,7 @@
   <nav class="container-fluid nav">
   <div class="container cf">
     <div class="brand">
-      <a href="#splash">Welcome</a>
+      <a href="#splash" id="content">Alex Cao</a>
     </div>
     <i class="fa fa-bars nav-toggle"></i>
     <ul>
@@ -31,13 +32,13 @@
   <div class="container-fluid splash" id="splash">
     <div class="container">
       <!-- <img src="http://placekitten/g/150/150/" alt="kitty"> -->
-      <h1>Alex Cao's Portfolio</h1>
+      <h1>Portfolio</h1>
     </div>
   </div>
 
   <div class="container-fluid intro" id="projects">
     <div class="container cf">
-      <h2>Projects</h2>
+      <h2>Sample Projects</h2>
       <div class="gallery">
         <div class="gallery-image">
           <p>Opioid Real-Time Dashboard for UM Injury Prevention Center</p>
@@ -59,7 +60,19 @@
             </div>
             <div class="img-modal">
               <h5 class="title">Username: Guest   Password: Account</h5>
-              <p>Statistical Modeling, Google Fusion Tables</p>
+              <p>Exposure Modeling, Google Fusion Tables</p>
+            </div>            
+          </a>
+        </div>
+        <div class="gallery-image">
+          <p>Word Prediction and Auto-complete Model</p>         
+          <a class="imgBlock" href="https://github.com/caocscar/SwiftKeyProjectn">
+            <div class="img-container">
+              <img src="img/swiftkey.png" alt="word prediction">
+            </div>
+            <div class="img-modal">
+              <h5 class="title">Swiftkey Coursera Project</h5>
+              <p>R, Shiny, NLP</p>
             </div>            
           </a>
         </div>
@@ -76,26 +89,26 @@
           </a>
         </div>
         <div class="gallery-image">
-          <p>Linking People for 1099-MISC for UM Shared Services</p>         
+          <p>Record Linkage for issuing 1099-MISC</p>         
           <a class="imgBlock" href="https://github.com/caocscar/hsip-deduplication">
             <div class="img-container">
               <img src="img/deduplication.png" alt="record linkage">
             </div>
             <div class="img-modal">
-              <h5 class="title">Record Linkage</h5>
+              <h5 class="title">Collaboration with UM Business Office</h5>
               <p>Python, Record Linkage Toolkit, dedupe</p>
             </div>            
           </a>
         </div>
         <div class="gallery-image">
-          <p>Data Science Workshops</p>         
+          <p>CSCAR Data Science Workshops</p>         
           <a class="imgBlock" href="https://github.com/caocscar/workshops">
             <div class="img-container">
               <img src="img/workshops.png" alt="workshops">
             </div>
             <div class="img-modal">
-              <h5 class="title">Workshops</h5>
-              <p>PySpark, NLP, Webscraping, etc...</p>
+              <h5 class="title">Workshop Material</h5>
+              <p>PySpark, NLP, Webscraping, etc.</p>
             </div>            
           </a>
         </div>
@@ -173,6 +186,7 @@
           </a>
         </div>        
       </div>
+      <a href="#content">Back To Top</a>
     </div>
   </div>
   <div class="container-fluid portfolio galaxy" id="longago">
@@ -180,17 +194,19 @@
       <h2>From A Long Time Ago (Maybe in a Galaxy Far, Far Away)</h2>
       <div class="gallery">
         <div class="gallery-image">
+          <p>My First "App" for a Pocket PC to do some mental workload experiments</p>
           <a class="imgBlock" href="http://ece.eng.wayne.edu/~apandya/Software/NASA_TLX/">
             <div class="img-container">
               <img src="img/NASA-TLX.png" alt="NASA TLX Software">
             </div>
             <div class="img-modal">
-              <h5 class="title">NASA TLX software for a Pocket PC</h5>
+              <h5 class="title">NASA TLX Software</h5>
               <p>Embedded C++</p>
             </div>            
           </a>
         </div>
         <div class="gallery-image">
+          <p>Software designed to process, analyze, and classify Raman spectra</p>
           <a class="imgBlock" href="http://cares.wayne.edu/rp/">
             <div class="img-container">
               <img src="img/Raman.png" alt="Raman Spectroscopy Software">
@@ -202,6 +218,7 @@
           </a>
         </div>
         <div class="gallery-image">
+          <p>Demonstration of our real-time fault detection classifier for a helicopter</p>
           <a class="imgBlock" href="https://www.youtube.com/watch?v=FworxxFIQpY&t=31s">
             <div class="img-container">
               <img src="img/IGB.jpg" alt="Drivetrain Demo Video">
@@ -213,6 +230,7 @@
           </a>
         </div>
       </div>
+      <a href="#content">Back To Top</a>
     </div>
   </div>
   <footer class="container-fluid footer">
