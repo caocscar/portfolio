@@ -184,9 +184,28 @@ Sections
 
 .splash h1 {
   font-size: 5em;
-  margin-bottom: .15em;
+  margin-bottom: 1em;
   text-align: center;
 }
+
+.splash h2 {
+  stroke: azure;
+  font-size: 2em:
+  margin-top: 3em;
+  text-align: center;
+}
+
+.splash a, .splash a:hover, .splash a:focus, .splash a:active {
+  color: #FFFF33;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .splash a:visited {
+  color: #551A8B;
+  text-decoration: underline;
+  cursor: pointer;
+}   */
 
 .splash .lead, .splash .continue {
   display: block;
